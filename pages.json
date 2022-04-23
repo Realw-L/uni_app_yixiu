@@ -1,0 +1,1100 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/start",
+            "style" : {
+                "navigationBarTitleText" : "",
+				"enablePullDownRefresh": true,
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		{
+		    "path" : "pages/home/order/add_order",
+		    "style" : {
+		        "navigationBarTitleText" : "下单须知"
+		    }
+		}, 
+		{
+		    "path" : "pages/home/order/add_orders",
+		    "style" : {
+		        "navigationBarTitleText" : "订单详情"
+		    }
+		},
+		{
+		    "path" : "pages/home/order/add_address",
+		    "style" : {
+		        "navigationBarTitleText" : "添加地址",
+				"enablePullDownRefresh": true,
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "添加"
+				            }
+				        ]
+				    }
+				}
+		    }
+		}, 
+		{
+		    "path" : "pages/home/order/edit_address",
+		    "style" : {
+		        "navigationBarTitleText" : "修改地址",
+				"enablePullDownRefresh": true,
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "保存"
+				            }
+				        ]
+				    }
+				}
+		    }
+		}, 
+		
+        {
+            "path" : "pages/home/news",
+            "style" : {
+                "navigationBarTitleText" : "新闻"
+            }
+        }, 
+		{
+		    "path" : "pages/my/face",
+		    "style" : {
+		        "navigationBarTitleText" : "用户信息"
+		    }
+		}, 
+		{
+		    "path" : "pages/order/news",
+		    "style" : {
+		        "navigationBarTitleText" : "输入报价"
+		    }
+		}, 
+		  {
+		    "path" : "pages/home/bid/index",
+		    "style" : {
+		        "navigationBarTitleText" : "基装"
+		    }
+		}, 
+		{
+		    "path" : "pages/home/bid/grid",
+		    "style" : {
+		        "navigationBarTitleText" : "店铺类型"
+		    }
+		}, 
+		{
+		    "path" : "pages/home/order/order_category",
+		    "style" : {
+		        "navigationBarTitleText" : "订单类型",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "确定"
+				            }
+				        ]
+				    }
+				}
+		    }
+		}, 
+		{
+		    "path" : "pages/my/install",
+		    "style" : {
+		        "navigationBarTitleText" : "设置"
+		    }
+		},
+		{
+		    "path" : "pages/my/add_user",
+		    "style" : {
+		        "navigationBarTitleText" : "添加其他账号"
+		    }
+		},
+		{
+		    "path" : "pages/my/adds_user",
+		    "style" : {
+		        "navigationBarTitleText" : "账号管理"
+		    }
+		},
+		{
+		    "path" : "pages/my/new_user",
+		    "style" : {
+		        "navigationBarTitleText" : "升级会员",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "审核中"
+				            }
+				        ]
+				    }
+				}
+		    }
+		},
+		{
+		    "path" : "pages/my/nicheng",
+		    "style" : {
+		        "navigationBarTitleText" : "账户管理"
+		    }
+		},
+		{
+		    "path" : "pages/my/iphone",
+		    "style" : {
+		        "navigationBarTitleText" : "绑定手机"
+		    }
+		},
+		{
+		    "path" : "pages/my/guanliyuan",
+		    "style" : {
+		        "navigationBarTitleText" : "管理员"
+		    }
+		},
+		{
+		    "path" : "pages/my/order_new",
+		    "style" : {
+		        "navigationBarTitleText" : "订单明细"
+		    }
+		},
+		{
+		    "path" : "pages/my/order",
+		    "style" : {
+		        "navigationBarTitleText" : "订单明细"
+		    }
+		},
+		{
+		    "path" : "pages/my/pay_check",
+		    "style" : {
+		        "navigationBarTitleText" : "余额查看"
+		    }
+		},
+		 {
+		    "path" : "pages/my/member_add",
+		    "style" : {
+		        "navigationBarTitleText" : "新增地址"
+		    }
+		},
+		{
+		    "path" : "pages/my/member_edit",
+		    "style" : {
+		        "navigationBarTitleText" : "编辑地址"
+		    }
+		},
+			{
+		    "path" : "pages/my/gongsirenzheng_new",
+		    "style" : {
+		        "navigationBarTitleText" : "公司认证",
+				 "app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "保存"
+				            }
+				        ]
+				    }
+				}
+		    }
+		},
+        {
+            "path" : "pages/home/order/picker_address",
+            "style" : {
+                "navigationBarTitleText" : "选择位置",
+				 "app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "确定"
+				            }
+				        ]
+				    }
+				}
+            }
+        },
+		{
+		    "path" : "pages/home/master_order",
+		    "style" : {
+		        "navigationBarTitleText" : "师傅资料",
+				 "app-plus" : {
+				    "titleNView" : {
+				        // "buttons" : [
+				        //     //原生标题栏按钮配置,
+				        //     {
+				        //         "fontSize" : "15px",
+				        //         "text" : "编辑"
+				        //     }
+				        // ]
+				    }
+				}
+		    }
+		},
+		{
+		    "path" : "pages/order/master_order",
+		    "style" : {
+		        "navigationBarTitleText" : "师傅资料",
+				 "app-plus" : {
+				    "titleNView" : {
+				        // "buttons" : [
+				        //     //原生标题栏按钮配置,
+				        //     {
+				        //         "fontSize" : "15px",
+				        //         "text" : "编辑"
+				        //     }
+				        // ]
+				    }
+				}
+		    }
+		},
+        {
+            "path" : "pages/home/order/address",
+            "style" : {
+                "navigationBarTitleText" : "地址簿",
+				"enablePullDownRefresh": true,
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "确定"
+				            }
+				        ]
+				    }
+				}
+            }
+        },
+		{
+		    "path" : "pages/home/user_order",
+		    "style" : {
+		        "navigationBarTitleText" : "提交订单"
+		    }
+		},
+		{
+		    "path" : "pages/home/new_object",
+		    "style" : {
+		        "navigationBarTitleText" : "优秀案例"
+		    }
+		},
+		{
+		    "path" : "pages/home/master",
+		    "style" : {
+		        "navigationBarTitleText" : "找师傅"
+		    }
+		},
+		{
+		    "path" : "pages/home/new_user",
+		    "style" : {
+		        "navigationBarTitleText" : "店装管家"
+		    }
+		},
+		{
+		    "path" : "pages/home/user",
+		    "style" : {
+		        "navigationBarTitleText" : "管家资料"
+		    }
+		},
+        {
+            "path" : "pages/my/team_member", 
+            "style" : {
+                "navigationBarTitleText" : "积分商城"
+            }
+        },   
+
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+		 {
+		    "path" : "pages/moment/index/index",
+		    "style" : {
+		        "navigationBarTitleText" : "商城",
+				"enablePullDownRefresh": true,
+		        "app-plus" : {
+		            "titleNView" : {
+		                "buttons" : [
+		                    //原生标题栏按钮配置,
+		                    // {
+		                    //     "fontSize" : "15px",
+		                    //     "text" : "发布"
+		                    // }
+		                ]
+		            }
+		        }
+		    }
+		},
+		 {
+		    "path" : "pages/moment/publish/publish",
+		    "style" : {
+		        "navigationBarTitleText" : "发布",
+				"enablePullDownRefresh": true,
+		        "app-plus" : {
+		            "titleNView" : {
+		                "buttons" : [
+		                    //原生标题栏按钮配置,
+		                    {
+		                        "fontSize" : "15px",
+		                        "text" : "发布"
+		                    }
+		                ]
+		            }
+		        }
+		    }
+		},
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        {
+            "path" : "pages/order/index",
+            "style" : {
+                "navigationBarTitleText" : "订单",
+				"enablePullDownRefresh": true,
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                //                "fontSrc": "/static/uni.ttf",
+                                "fontSize" : "18px",
+                                "color" : "#555555",
+								"text":"我的"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+		{
+		    "path" : "pages/my/share/share",
+		    "style" : {
+		        "navigationBarTitleText" : "介绍",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+								 "fontSize" : "16px",
+                                "color" : "#555555",
+								"text":"分享"
+                            }
+                        ]
+                    }
+                }
+		    }
+			
+		},
+		{
+		    "path" : "pages/my/share",
+		    "style" : {
+		        "navigationBarTitleText" : "一键看店"
+		    }
+		},
+		{
+		    "path" : "pages/my/video",
+		    "style" : {
+		        "navigationBarTitleText" : "实时监控"
+		    }
+		},
+		{
+		    "path" : "pages/my/ticket_order",
+		    "style" : {
+		        "navigationBarTitleText" : "开票"
+		    }
+		},
+        //---------------------------------
+        {
+            "path" : "pages/home/web",
+            "style" : {
+                "navigationBarTitleText" : "详情",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            //原生标题栏按钮配置,
+                            {
+                                "fontSize" : "3upx",
+                                "text" : "关闭"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        {
+            "path" : "pages/home/embedWeb",
+            "style" : {
+                "navigationBarTitleText" : "详情",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        //---------------------------------
+        {
+            "path" : "pages/my/order_index",
+            "style" : {
+                "navigationBarTitleText" : "用户订单",
+				"enablePullDownRefresh": true
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/certification_company",
+            "style" : {
+                "navigationBarTitleText" : "公司认证",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            //原生标题栏按钮配置,
+                            {
+                                "fontSize" : "15px",
+                                "text" : "保存"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/certification_skill",
+            "style" : {
+                "navigationBarTitleText" : "技能认证",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            //原生标题栏按钮配置,
+                            {
+                                "fontSize" : "15px",
+                                "text" : "保存"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/home/order/add_ref_images",
+            "style" : {
+                "navigationBarTitleText" : "添加施工参考图片",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            //原生标题栏按钮配置,
+                            {
+                                "fontSize" : "15px",
+                                "text" : "保存"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        {
+            "path" : "pages/my/certification_mail",
+            "style" : {
+                "navigationBarTitleText" : "邮箱认证"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/certification_wechat",
+            "style" : {
+                "navigationBarTitleText" : "微信绑定"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/certification_alipay",
+            "style" : {
+                "navigationBarTitleText" : "支付宝绑定"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/user_info",
+            "style" : {
+                "navigationBarTitleText" : "我的圈子"
+            }
+        },
+		{
+		    "path" : "pages/my/messenger",
+		    "style" : {
+		        "navigationBarTitleText" : "我的消息"
+		    }
+		},
+		{
+		    "path" : "pages/my/gift",
+		    "style" : {
+		        "navigationBarTitleText" : "我的收藏"
+		    }
+		},
+		{
+		    "path" : "pages/my/messenger_new",
+		    "style" : {
+		        "navigationBarTitleText" : "消息详情"
+		    }
+		},
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/certification_id",
+            "style" : {
+                "navigationBarTitleText" : "实名认证",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            //原生标题栏按钮配置,
+                            {
+                                "fontSize" : "15px",
+                                "text" : "保存"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        {
+            "path" : "pages/my/coupon",
+            "style" : {
+                "navigationBarTitleText" : "优惠券"
+            }
+        },
+        //end    
+        //---------------------------------
+        {
+            "path" : "pages/my/charge",
+            "style" : {
+                "navigationBarTitleText" : "充值"
+            }
+        },
+        //end withdraw
+        //---------------------------------
+        {
+            "path" : "pages/my/withdraw",
+            "style" : {
+                "navigationBarTitleText" : "提现"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/receiving_report",
+            "style" : {
+                "navigationBarTitleText" : "验收清单"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/ticket",
+            "style" : {
+                "navigationBarTitleText" : "开票"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/help",
+            "style" : {
+                "navigationBarTitleText" : "使用指南"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/customer_service",
+            "style" : {
+                "navigationBarTitleText" : "联系客服"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/promotion_master",
+            "style" : {
+                "navigationBarTitleText" : "会员中心"
+            }
+        },
+        {
+            "path" : "pages/my/promotion_index",
+            "style" : {
+                "navigationBarTitleText" : "会员中心"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/order/task_detail",
+            "style" : {
+                "navigationBarTitleText" : "任务明细"
+            }
+        },
+        {
+            "path" : "pages/order/task_detail_for_bid",
+            "style" : {
+                "navigationBarTitleText" : "任务明细"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/qa",
+            "style" : {
+                "navigationBarTitleText" : "疑难解答"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/user_protocal",
+            "style" : {
+                "navigationBarTitleText" : "用户协议"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/aboutus",
+            "style" : {
+                "navigationBarTitleText" : "关于我们"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/master",
+            "style" : {
+                "navigationBarTitleText" : "师傅中心"
+            }
+        },
+        {
+            "path" : "pages/my/index",
+            "style" : {
+                "navigationBarTitleText" : "用户中心",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+								 "fontSize" : "16px",
+                                "color" : "#555555",
+								"text":"消息"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/member",
+            "style" : {
+                "navigationBarTitleText" : "成员"
+            }
+        },
+        //end
+        //---------------------------------
+        {
+            "path" : "pages/my/team",
+            "style" : {
+                "navigationBarTitleText" : "团队"
+            }
+        },
+        //end
+        {
+            "path" : "pages/my/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登录"
+            }
+        },
+        {
+            "path" : "pages/my/reg/reg",
+            "style" : {
+                "navigationBarTitleText" : "注册"
+            }
+        },
+        {
+            "path" : "pages/my/pwd/pwd",
+            "style" : {
+                "navigationBarTitleText" : "找回密码"
+            }
+        },
+        {
+            "path" : "pages/my/pwd/set_pay_pwd",
+            "style" : {
+                "navigationBarTitleText" : "设置支付密码"
+            }
+        },
+        {
+            "path" : "pages/my/feedback",
+            "style" : {
+                "navigationBarTitleText" : "平台反馈"
+            }
+        },
+		{
+		    "path" : "pages/my/live_user",
+		    "style" : {
+		        "navigationBarTitleText" : "升级会员"
+		    }
+		},
+		{
+		    "path" : "pages/my/gongsiruzhu",
+		    "style" : {
+		        "navigationBarTitleText" : "公司入驻"
+		    }
+		},
+		{
+		    "path" : "pages/my/tousu",
+		    "style" : {
+		        "navigationBarTitleText" : "评价师傅"
+		    }
+		},
+		{
+		    "path" : "pages/my/new_gongsiruzhu",
+		    "style" : {
+		        "navigationBarTitleText" : "公司入驻"
+		    }
+		},
+        //end
+        {
+            "path" : "pages/my/reg/zhuce",
+            "style" : {
+                "navigationBarTitleText" : "注册"
+            }
+        },
+        {
+            "path" : "pages/my/login/denglv",
+            "style" : {
+                "navigationBarTitleText" : "登陆"
+            }
+        },
+        {
+            "path" : "pages/my/pwd/forget_password",
+            "style" : {
+                "navigationBarTitleText" : "忘记密码"
+            }
+        },
+        {
+            "path" : "pages/my/gongsrenzheng_new",
+            "style" : {
+                "navigationBarTitleText" : "公司认证",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            //原生标题栏按钮配置,
+                            {
+                                "fontSize" : "15px",
+                                "text" : "保存"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        {
+            "path" : "pages/home/order/pay",
+            "style" : {
+                "navigationBarTitleText" : "确认订单"
+            }
+        },
+        {
+            "path" : "pages/my/money_changer",
+            "style" : {
+                "navigationBarTitleText" : "兑换中心"
+            }
+        },
+        {
+            "path" : "pages/home/order/construction_reference",
+            "style" : {
+                "navigationBarTitleText" : "添加施工参考图",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            //原生标题栏按钮配置,
+                            {
+                                "fontSize" : "15px",
+                                "text" : "保存"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        //原生标题栏增加发布按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+        {
+            "path" : "pages/my/back_add",
+            "style" : {
+                "navigationBarTitleText" : "添加银行卡"
+            }
+        },
+        {
+            "path" : "pages/my/back_add1",
+            "style" : {
+                "navigationBarTitleText" : "填写银行卡信息"
+            }
+        },
+        {
+            "path" : "pages/moment/add",
+            "style" : {
+                "navigationBarTitleText" : "发布动态",
+				 "app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "提交"
+				            }
+				        ]
+				    }
+				}
+            }
+        },
+		 {
+		    "path" : "pages/my/team_case_add",
+		    "style" : {
+		        "navigationBarTitleText" : "发布案例",
+				 "app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "提交"
+				            }
+				        ]
+				    }
+				}
+		    }
+		},
+        {
+            "path" : "pages/home/sbanner",
+            "style" : {
+                "navigationBarTitleText" : "弹窗",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/home/city",
+            "style" : {
+                "navigationBarTitleText" : "城市选择",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		{
+		    "path" : "pages/home/order/city",
+		    "style" : {
+		        "navigationBarTitleText" : "城市选择",
+		        "app-plus" : {
+		            "titleNView" : false
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/guide",
+		    "style" : {
+		        "navigationBarTitleText" : "",
+		        "app-plus" : {
+		            "titleNView" : false
+		        }
+		    }
+		},
+
+        {
+            "path" : "pages/order/verify/verify",
+            "style" : {
+				"navigationBarTitleText" : "施工完成",
+				 "app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "提交"
+				            }
+				        ]
+				    }
+				}
+			}
+        }
+        
+        ,{
+            "path" : "pages/home/search/search",
+            "style" : {
+				"navigationBarTitleText" : "搜索结果"
+			}
+        }
+        ,{
+            "path" : "pages/my/team_comments/team_comments",
+            "style" : {
+				"navigationBarTitleText" : "大家说"
+			}
+        },
+		 {
+		    "path" : "pages/home/index",
+		    "style" : {
+		        "navigationBarTitleText" : "首页"
+		    }
+		},
+		 {
+		    "path" : "pages/home/Advertisement",
+		    "style" : {
+		        "navigationBarTitleText" : "创建订单"
+		    }
+		},
+		 {
+		    "path" : "pages/home/build",
+		    "style" : {
+		        "navigationBarTitleText" : "创建订单"
+		    }
+		},
+		{
+		    "path" : "pages/home/measurement",
+		    "style" : {
+		        "navigationBarTitleText" : "创建订单"
+		    }
+		},  
+		{
+		    "path" : "pages/my/shifubaojia",
+		    "style" : {
+		        "navigationBarTitleText" : "输入报价"
+		    }
+		},
+		{
+		    "path" : "pages/my/fabiaopinglun",
+		    "style" : {
+		        "navigationBarTitleText" : "发表评价"
+		    }
+		},
+		{
+		    "path" : "pages/my/quotation",
+		    "style" : {
+		        "navigationBarTitleText" : "输入报价"
+		    }
+		},
+		{
+		    "path" : "pages/my/zhuanyejineng",
+		    "style" : {
+		        "navigationBarTitleText" : "专业技能"
+		    }
+		},
+		{
+		    "path" : "pages/home/order/index",
+		    "style" : {
+		        "navigationBarTitleText" : "提交订单",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "发布"
+				            }
+				        ]
+				    }
+				}
+		    }
+		},
+		{
+		    "path" : "pages/home/order/category",
+		    "style" : {
+		        "navigationBarTitleText" : "订单类型",
+				"app-plus" : {
+				    "titleNView" : {
+				        "buttons" : [
+				            //原生标题栏按钮配置,
+				            {
+				                "fontSize" : "15px",
+				                "text" : "确定"
+				            }
+				        ]
+				    }
+				}
+		    }
+		}
+
+
+    ],
+
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "Hello uniapp",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : 
+	{
+	    "color" : "#7a7e83",
+	    "selectedColor" : "#8bc21f",
+	    "backgroundColor" : "#ffffff",
+	    "borderStyle" : "black",
+	    "list" : [
+	       {
+	          "pagePath" : "pages/home/index",
+	          "iconPath" : "static/images/home_gray.png",
+	          "selectedIconPath" : "static/images/home.png",
+	          "text" : "首页"
+	      },
+
+{
+			    "pagePath" : "pages/moment/index/index",
+			    "iconPath" : "static/images/moment_gray.png",
+			    "selectedIconPath" : "static/images/moment.png",
+			    "text" : "商城"
+			},
+	        {
+	            "pagePath" : "pages/order/index",
+	            "iconPath" : "static/images/order_gray.png",
+	            "selectedIconPath" : "static/images/order.png",
+	            "text" : "订单"
+	        },
+			
+			// {
+			//     "pagePath" : "pages/home/order/index",
+			//     "iconPath" : "static/images/my_order1.png",
+			//     "selectedIconPath" : "static/images/my_order2.png",
+			//     "text" : "下单"
+			// },
+			
+	        {
+	            "pagePath" : "pages/my/index",
+	            "iconPath" : "static/images/my_gray.png",
+	            "selectedIconPath" : "static/images/my.png",
+	            "text" : "我的"
+	        }
+	    ]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
+

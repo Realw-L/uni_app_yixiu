@@ -1,0 +1,247 @@
+{
+    "name" : "异修",
+    "appid" : "__UNI__DCC4848",
+    "description" : "异修--一站式家装平台",
+    "versionName" : "1.0.1",
+    "versionCode" : 100,
+    "transformPx" : false,
+    "app-plus" : {
+		"usingComponents" : true,
+        /* 5+App特有相关 */
+        "modules" : {
+            "Payment" : {},
+            "Push" : {},
+            "Share" : {},
+            "Speech" : {},
+            "VideoPlayer" : {},
+            "Maps" : {},
+            "Messaging" : {},
+            "Contacts" : {},
+            "Statistic" : {},
+            "OAuth" : {}
+        },
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.CONTROL_LOCATION_UPDATES\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_MOCK_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_TASKS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+                ]
+            },
+            "ios" : {
+                /* ios打包配置 */
+                "UIBackgroundModes" : [ "audio" ],
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "app需要用到相册的授权。",
+                    "NSPhotoLibraryAddUsageDescription" : "app需要用到相册的授权。",
+                    "NSCameraUsageDescription" : "app需要用到报相头的授权。",
+                    "NSMicrophoneUsageDescription" : "app需要用到麦克风的授权。",
+                    "NSLocationWhenInUseUsageDescription" : "app需要用到位置的授权。",
+                    "NSLocationAlwaysUsageDescription" : "app需要用到后台位置的授权。",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "app需要用到相册的授权。",
+                    "NSCalendarsUsageDescription" : "app需要用到日历的授权。",
+                    "NSContactsUsageDescription" : "app需要用到通讯录的授权。",
+                    "NSBluetoothPeripheralUsageDescription" : "app需要用到蓝牙的授权。",
+                    "NSSpeechRecognitionUsageDescription" : "app需要用到语音识别的授权。",
+                    "NSRemindersUsageDescription" : "app需要用到提醒的授权。",
+                    "NSMotionUsageDescription" : "app需要用到运动与健身的授权。",
+                    "NSHealthUpdateUsageDescription" : "app需要用到健康更新的授权。",
+                    "NSHealthShareUsageDescription" : "app需要用到健康分享的授权。",
+                    "NSAppleMusicUsageDescription" : "app需要用到媒体资料的授权。",
+                    "NFCReaderUsageDescription" : "app需要用到NFC的授权。",
+                    "NSHealthClinicalHealthRecordsShareUsageDescription" : "app需要用到临床记录的授权。",
+                    "NSHomeKitUsageDescription" : "app需要用到HomeKit的授权。",
+                    "NSSiriUsageDescription" : "app需要用到Siri的授权。",
+                    "NSFaceIDUsageDescription" : "app需要用到ace ID的授权。"
+                }
+            },
+            "sdkConfigs" : {
+                "speech" : {
+                    "ifly" : {}
+                },
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "ae68cbac33a2b3f6e3fd382cec68f306",
+                        "appkey_android" : "dc7308aaa968352dd30c4d19b45d27f5",
+                        "description" : "高德地图"
+                    }
+                },
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wxc68c5d7341cead05",
+                        "appsecret" : "5821b408b4edb5a3cda07afeffc03704"
+                    }
+                },
+                "payment" : {
+                    "alipay" : {
+                        "scheme" : "yixiou_alipay"
+                    },
+                    "appleiap" : {},
+                    "weixin" : {
+                        "appid" : "wxc68c5d7341cead05"
+                    }
+                },
+                "push" : {
+                    "igexin" : {
+                        "appid" : "wkj0Wxrv6665b6vGf31Hn7",
+                        "appkey" : "Xqa5AxHsvX8QVDSX7enQL2",
+                        "appsecret" : "3w45mfOicx6jTpsAiAYQ74"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wxc68c5d7341cead05",
+                        "appsecret" : "5821b408b4edb5a3cda07afeffc03704"
+                    }
+                },
+                "statics" : {
+                    "umeng" : {
+                        "appkey_ios" : "5bc6dfa0b465f5277300010a",
+                        "channelid_ios" : "yixiu",
+                        "appkey_android" : "5bc6df20b465f5dcc70001d7",
+                        "channelid_android" : "yixiu"
+                    }
+                }
+            },
+            /* SDK配置 */
+            "orientation" : [ "portrait-primary" ],
+            "icons" : {
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/192x192.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                },
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "ldpi" : "unpackage/res/icons/48x48.png",
+                    "mdpi" : "unpackage/res/icons/48x48.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "static/images/9.png",
+                    "xhdpi" : "static/images/9.png",
+                    "xxhdpi" : "static/images/9.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "static/images/1242x2688.png",
+                        "landscape-896h@3x" : "static/images/2688x1242.png",
+                        "portrait-896h@2x" : "static/images/828x1792.png",
+                        "landscape-896h@2x" : "static/images/1792x828.png",
+                        "iphonex" : "static/images/1125x2436.png",
+                        "iphonexl" : "static/images/2436x1125.png",
+                        "retina55" : "static/images/1242x2208.png",
+                        "retina55l" : "static/images/2208x1242.png",
+                        "retina47" : "static/images/750x1334.png",
+                        "retina47l" : "static/images/1334x750.png",
+                        "retina40" : "static/images/640x1136.png",
+                        "retina40l" : "static/images/1136x640.png",
+                        "retina35" : "static/images/640x960.png"
+                    },
+                    "ipad" : {
+                        "portrait-1112h@2x" : "static/images/ic_launcher.png",
+                        "landscape-1194h@2x" : "static/images/ic_launcher.png",
+                        "portrait-1194h@2" : "static/images/ic_launcher.png",
+                        "landscape-1366h@2x" : "static/images/ic_launcher.png",
+                        "portrait-1366h@2x" : "static/images/ic_launcher.png",
+                        "landscape-1112h@2x" : "static/images/ic_launcher.png",
+                        "portrait-retina7" : "static/images/ic_launcher.png",
+                        "landscape-retina7" : "static/images/ic_launcher.png",
+                        "portrait7" : "static/images/ic_launcher.png",
+                        "landscape7" : "static/images/ic_launcher.png"
+                    }
+                }
+            }
+        },
+        "splashscreen" : {
+            "waiting" : true
+        }
+    },
+    "quickapp" : {},
+    //以下是需要多加配置的代码
+    "h5" : {
+        "router" : {
+            "base" : "/h5/", //服务器根目录我存放代码的文件夹
+            "mode" : "history"
+        },
+        "title" : "异修",
+        "devServer" : {
+            "https" : false
+        },
+		"usingComponents": true,
+        "domain" : "localhost"
+    },
+    "mp-weixin" : {
+		"usingComponents" : true,
+        "setting" : {
+            "postcss" : false,
+            "domain" : "h5.yidikj.com",
+            "devServer" : {
+                "https" : false
+            },
+            "template" : "",
+            "router" : {
+                "mode" : "history"
+            }
+        },
+        "appid" : "wx933221435c53a122"
+    }
+}
+/* 快应用特有相关 *//* 小程序特有相关 */
+
